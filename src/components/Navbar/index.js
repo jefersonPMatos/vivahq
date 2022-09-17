@@ -4,17 +4,17 @@ const navData = [
   {
     id: "1",
     name: "Início",
-    link: "#",
+    link: "/",
   },
   {
     id: "2",
     name: "Sobre nós",
-    link: "#",
+    link: "/sobre",
   },
   {
     id: "3",
     name: "Inscrições",
-    link: "#",
+    link: "/inscricoes",
   },
   {
     id: "4",
@@ -24,22 +24,20 @@ const navData = [
   {
     id: "5",
     name: "Contato",
-    link: "#",
+    link: "/contato",
   },
 ];
 
 export function Navbar() {
   return (
-    <S.Container>
-      <S.Nav>
-        <S.List>
-          {navData.map((link) => (
-            <S.ListItem key={link.id}>
-              <S.Link href={link.link}>{link.name}</S.Link>
-            </S.ListItem>
-          ))}
-        </S.List>
-      </S.Nav>
-    </S.Container>
+    <S.Nav>
+      <S.List>
+        {navData.map((link) => (
+          <S.ListItem key={link.id}>
+            <S.Link href={link.link}>{link.name}</S.Link>
+          </S.ListItem>
+        ))}
+      </S.List>
+    </S.Nav>
   );
 }

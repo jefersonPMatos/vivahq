@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
-
 export const Nav = styled.nav`
   display: flex;
+  position: fixed;
   justify-content: right;
   align-items: flex-end;
   padding: 15px 0;
-  margin: 0 100px;
   color: #000;
+  top: 0;
+  right: 100px;
 `;
 
 export const Link = styled.a`

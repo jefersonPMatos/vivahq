@@ -5,17 +5,16 @@ export const Container = styled.button`
   justify-content: center;
   align-items: center;
   background: #00aca8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
-  font-family: "Times New Roman", Times, serif;
-  letter-spacing: 1px;
-  font-size: 30px;
-  color: #fff;
-  text-shadow: 2px 2px 1px #000;
+  font-weight: bold;
+  font-size: 28px;
   width: 350px;
   height: 60px;
   border: none;
   cursor: pointer;
   clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 80%);
+  padding-bottom: 8px;
 `;
 
 export const Wrapper = styled.div`

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import bg from "../../assets/images/background.png";
+import bg from "../../assets/images/background2.png";
 
-export const Container = styled.main`
+export const Container = styled.div`
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -11,28 +11,18 @@ export const Container = styled.main`
   background-size: cover;
 `;
 
-export const Body = styled.body`
-  display: flex;
-  border: 1px solid #000;
-  height: 100vh;
-`;
-
 export const Text = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 900px;
-  position: absolute;
-  top: 250px;
-  right: 100px;
+  width: 600px;
+  gap: 30px;
+  position: fixed;
+  top: 200px;
+  left: 330px;
 
   h1 {
     color: #f32828;
-  }
-
-  p {
-    width: 690px;
-    margin: 15px 0px 50px 0px;
   }
 `;

@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const Theme = createGlobalStyle`
  html, body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   a {
     text-decoration: none;
@@ -21,7 +21,7 @@ export const Theme = createGlobalStyle`
   }
 
  p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
  }
 
