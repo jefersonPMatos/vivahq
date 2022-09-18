@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bg from "../../assets/images/background4.png";
+import bg from "../../assets/images/background3.png";
 
 export const Container = styled.main`
   display: flex;
@@ -12,16 +12,8 @@ export const Container = styled.main`
   background-size: cover;
 
   h1 {
-    font-size: 80px;
     position: fixed;
     top: 100px;
-    right: 350px;
     color: #f32828;
   }
-`;
-
-export const Text = styled.div`
-  display: flex;
-  position: fixed;
-  right: 420px;
 `;

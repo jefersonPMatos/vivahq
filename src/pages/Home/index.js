@@ -13,7 +13,9 @@ export const Home = () => {
           mundo geek de uma maneira geral em momentos em que o lúdico é um forte
           aliado dos atos de ensinar e aprender.
         </p>
-        <Button> Inscreva-se!</Button>
+        <a href="/inscricoes">
+          <Button> Inscreva-se!</Button>
+        </a>
       </S.Text>
     </S.Container>
   );

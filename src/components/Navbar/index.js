@@ -19,7 +19,7 @@ const navData = [
   {
     id: "4",
     name: "Programação",
-    link: "#",
+    link: "/programacao",
   },
   {
     id: "5",

@@ -11,7 +11,7 @@ export const Theme = createGlobalStyle`
   h1 {
     font-family: 'Bangers', cursive;
     font-size: 140px;
-  text-shadow: 0.05em 0.05em #000;
+    text-shadow: 0.05em 0.05em #000;
 
   }
 
